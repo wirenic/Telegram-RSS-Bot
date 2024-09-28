@@ -1,19 +1,21 @@
 {
     "en-us":{
-        "wellcome": [
+        "welcome": [
             "Hi, I'm open\\-source [telegram RSS bot](https://github.com/bsimjoo/Telegram_RSS_bot) ",
-            "wroten by [BSimjoo](https://github.com/bsimjoo) and this is a default message\\.\n",
+            "writen by [BSimjoo](https://github.com/bsimjoo) and this is a default message\\.\n",
             "*Owner can edit this message in strings\\.json file*"
         ],
         "group-intro": [
             "Hi everybody, I'm open\\-source [telegram RSS bot](https://github.com/bsimjoo/Telegram_RSS_bot) ",
-            "wroten by [BSimjoo](https://github.com/bsimjoo) and this is a default message\\.\n",
+            "wrote by [BSimjoo](https://github.com/bsimjoo) and this is a default message\\.\n",
             "*Owner can edit this message in strings\\.json file*"
         ],
         "new-feed": "🆕♨️New post on weblog:",
         "last-feed": "Last post of weblog",
         "owner-help": [
-            "/gentoken Crate one-time token to add new admin\n"
+            "/gentoken Crate one-time token to add new admin\n",
+            "/log_updates toggle debug mode\n\n",
+            "`/log_updates` is available just if you set debug as true in server configuration."
         ],
         "admin-help": [
             "/my_level  Check you access level\n\n",
@@ -28,14 +30,18 @@
             "/last_feed Get last post of weblog\n\n",
             "/help      Show this help"
         ],
-        "time-limit-error": "Sorry, I can not answer you right now because of time limition between two request, try again 2 mins later.",
+        "time-limit-error": "Sorry, I can not answer you right now because of time limitation between two request, try again 2 mins later.",
         "unknown": "Unknown command",
-        "unknown-msg": "Sorry, I can't chat with anyone right now!"
+        "unknown-msg": "Sorry, I can't chat with anyone right now!",
+        "edited-message": "Sorry this bot can not handle edited messages, please resend your message",
+        "read-more": "read more ...",
+        "image-link": "Open image URL",
+        "goto-post": "Read this article"
     },
     "fa-ir": {
-        "wellcome": [
+        "welcome": [
             "سلام، من ربات متن باز ",
-            "(Telegram RSS Bot)[https://github.com/bsimjoo/Telegram_RSS_bot] ",
+            "[Telegram RSS Bot](https://github.com/bsimjoo/Telegram_RSS_bot) ",
             "هستم و توسط ",
             "[BSimjoo](https://github.com/bsimjoo)",
             "نوشته شده ام\\. این پیام پیشفرض ربات است",
@@ -44,14 +50,21 @@
             "تغییر دهد\\."
         ],
         "group-intro": [
-            "سلام، من ربات وبلاگ ",
-            "[PCWorms🐛💻](http://pcworms\\.blog\\.ir)",
-            " هستم و حالا اینجا چیکار می کنم؟\\! من اینجام تا شما رو از آخرین مطالب وبلاگ با خبر کنم"
+            "سلام، من ربات متن باز ",
+            "[Telegram RSS Bot](https://github.com/bsimjoo/Telegram_RSS_bot) ",
+            "هستم و توسط ",
+            "[BSimjoo](https://github.com/bsimjoo)",
+            "نوشته شده ام\\. این پیام پیشفرض ربات است",
+            "صاحب این ربات می تواند این پیام را در فایل ",
+            "strings\\.json",
+            "تغییر دهد\\."
         ],
         "new-feed": "🆕♨️پست جدید بر روی وبلاگ:",
         "last-feed": "آخرین پست وبلاگ:",
         "owner-help": [
-            "/gentoken ساخت توکن برای افزودن ادمین\n"
+            "/gentoken ساخت توکن برای افزودن ادمین\n",
+            "/log_updates تغییر حالت وضعیت رفع اشکال\n\n",
+            "دستور `/log_updates` تنها زمانی فعال است که در تنظیمات سرور مقدار `debug` معادل `true` باشد"
         ],
         "admin-help": [
             "/my_level    آگاهی از سطح دسترسی\n\n",
@@ -68,6 +81,10 @@
         ],
         "time-limit-error": ".با عرض پوزش اکنون به دلیل محدودیت زمان بین تو درخواست نمی توانم به شما پاسخ دهم. بعد از دو دقیقه مجددا تلاش کنید",
         "unknown": "متأسفم، دستوری که وارد کردید صحیح نیست",
-        "unknown-msg": "!متأسفم، در حال حاضر نمی توانم با کاربران چت کنم"
+        "unknown-msg": "!متأسفم، در حال حاضر نمی توانم با کاربران چت کنم",
+        "edited-message": "با عرض پوزش این ربات در حال حاضر از ویرایش پیام پشتیبانی نمی کند",
+        "read-more": "بیشتر بخوانید ...",
+        "image-link": "باز کردن لینک تصویر",
+        "goto-post": "خواندن این مطلب"
     }
 }
